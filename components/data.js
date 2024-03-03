@@ -241,7 +241,7 @@ export function projectsData() {
     {
       title: "Portfolio Website",
       github: "https://github.com/Vishwassaxena2210/portfolio",
-      url: "https://portfolio-chi-self-54.vercel.app/",
+      url: "https://portfolio-eta-steel-24.vercel.app/",
       description: `• Next js
       • Tailwind css 
 •  Framer motion. 
