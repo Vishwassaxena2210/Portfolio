@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import { Compass, FolderKanban, Github, Instagram, Linkedin, Mail, ScrollText, UserCircle, Wrench } from "lucide-react"
+import { Compass, FolderKanban, Github, Instagram, Linkedin, LucideHeartHandshake, Mail, ScrollText, Speaker, Speech, UserCircle, Wrench } from "lucide-react"
 import { usePathname, useRouter } from 'next/navigation'
 
 export default function NavLinks({ setOpen }) {
@@ -33,6 +33,11 @@ export default function NavLinks({ setOpen }) {
             name: "Technical Skills",
             route: "/stack",
             icon: <Wrench />
+        },
+        {
+            name: "Soft Skills",
+            route: "/softSkills",
+            icon: <Speech/>
         },
         {
             name: "About",

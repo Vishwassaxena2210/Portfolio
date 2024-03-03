@@ -29,6 +29,13 @@ export function certificatesData() {
       img: "https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png",
     },
     {
+      name: "AI Text Summarizer",
+      company: "Postman",
+      credentials:
+        "/textsummarizer.pdf",
+      img: "postman.png",
+    },
+    {
       name: "Intro to AI",
       company: "Infosys Springboard",
       credentials:
@@ -154,6 +161,29 @@ export function certificatesData() {
     // },
   ];
 }
+export function softdata(){
+  return [
+    {
+      name: "Verbal and Written Communication",
+      
+      
+    },
+    {
+      name: "Database and Document Management ",
+      },
+      {
+        name: "Team Collaboration",
+        },
+        {
+          name: "Adaptive",
+          },
+          {
+            name: "Event Planning",
+            },
+
+
+  ]
+}
 
 export function techStackData() {
   return [
@@ -210,8 +240,8 @@ export function projectsData() {
   return [
     {
       title: "Portfolio Website",
-      github: "https://github.com/Vishwassaxena2210/portfolio1.0",
-      url: "https://codsoft-tau.vercel.app/",
+      github: "https://github.com/Vishwassaxena2210/portfolio",
+      url: "https://portfolio-chi-self-54.vercel.app/",
       description: `• Next js
       • Tailwind css 
 •  Framer motion. 
@@ -219,6 +249,17 @@ export function projectsData() {
 `,
       img: "",
       techStack: ["NextJS", "TailwindCSS"],
+    },
+    {
+      title: "AI text summarirer",
+      github: "https://github.com/Vishwassaxena2210/YoutubeClone",
+      url: "https://replit.com/@vishwas1216be21/AI-Text-Summarizer-App",
+      description: `• Postman.
+• Hugging Face AI community.
+• Summarize your text in few seconds.
+`,
+      img: "",
+      techStack: [],
     },
     {
       title: "Youtube Clone",
@@ -231,13 +272,6 @@ export function projectsData() {
       img: "",
       techStack: [],
     },
-    {
-      title: "ModCrew: A spare part shop",
-      github: "https://github.com/shivanshS04/cards",
-      url: "https://cards-ten-gold.vercel.app/",
-      description: `• Frontend project. `,
-      img: "",
-      techStack: [],
-    },
+    
   ];
 }
