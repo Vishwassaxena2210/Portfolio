@@ -14,13 +14,7 @@ export function certificatesData() {
         "/fullstack.pdf",
       img: "codingninja.png",
     },
-    {
-      name: "Angular",
-      company: "Infosys Springboard",
-      credentials:
-        "/angular.pdf",
-      img: "https://www.infosys.com/content/dam/infosys-web/en/about/springboard/images/infosys-springboard.png",
-    },
+  
     {
       name: "Software Engineering",
       company: "Infosys Springboard",
@@ -242,13 +236,13 @@ export function projectsData() {
       title: "Portfolio Website",
       github: "https://github.com/Vishwassaxena2210/portfolio",
       url: "https://portfolio-eta-steel-24.vercel.app/",
-      description: `• Next js
+      description: `• React js
       • Tailwind css 
 •  Framer motion. 
 • Shadcn ui
 `,
       img: "",
-      techStack: ["NextJS", "TailwindCSS"],
+      techStack: ["React JS", "TailwindCSS"],
     },
     {
       title: "AI text summarirer",
@@ -262,7 +256,7 @@ export function projectsData() {
       techStack: [],
     },
     {
-      title: "Youtube Clone",
+      title: "Purple TV",
       github: "https://github.com/Vishwassaxena2210/YoutubeClone",
       url: "https://youtube-clone-olive-xi.vercel.app/",
       description: `• Front-End.

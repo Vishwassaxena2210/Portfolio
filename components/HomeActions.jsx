@@ -3,7 +3,6 @@ import { Copy } from "lucide-react";
 import { Button } from "./ui/button";
 import { useToast } from "./ui/use-toast";
 import { Toaster } from "./ui/toaster";
-
 export default function HomeActions() {
     const { toast } = useToast();
     function copyEmail() {
@@ -19,7 +18,7 @@ export default function HomeActions() {
                 <a href="/VSresume.pdf" target="_blank">Resume</a>
             </Button>
             <Button variant='outline' onClick={() => copyEmail()}><Copy size={16} className="mr-2" /> E-mail</Button>
-            <Toaster />
+            <Toaster/>
         </div>
     )
 }
